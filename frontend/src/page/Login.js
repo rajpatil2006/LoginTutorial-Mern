@@ -31,7 +31,7 @@ function Login() {
     }
 
     try{
-        const url= "http://localhost:5000/auth/login";
+        const url= "https://login-tutorial-mern.vercel.app/auth/login";
         const response = await fetch(url,
             {
                 method:"POST",
