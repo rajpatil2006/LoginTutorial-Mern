@@ -27,7 +27,7 @@ function Home() {
 
     const fetchProducts = async () =>{
       try{
-        const url = "http://localhost:5000/products";
+        const url = "https://login-tutorial-mern.vercel.app/products";
         const headers = {
           headers: {
           'authorization' : localStorage.getItem('token')
